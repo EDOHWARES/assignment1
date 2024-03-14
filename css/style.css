@@ -486,6 +486,11 @@ section.assignment .remaining {
     section.assignment
     {
         padding: .6rem 1rem;
+    }
+
+    section.biography,
+    section.courses,
+    section.assignment {
         margin-top: 1.5rem;
     }
 
