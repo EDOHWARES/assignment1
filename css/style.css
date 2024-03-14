@@ -427,6 +427,10 @@ section.assignment .remaining {
         width: 100%;
     }
 
+    body {
+        padding: .9rem;
+    }
+
 }
 
 
@@ -481,7 +485,7 @@ section.assignment .remaining {
     section.courses,
     section.assignment
     {
-        padding: 1rem 2rem;
+        padding: .3rem 1rem;
     }
 
 }
