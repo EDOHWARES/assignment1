@@ -44,20 +44,18 @@ navLinks.forEach((link) => {
 
 const remaining_tags = document.querySelector('section.assignment .remaining')
 const extend_rt_btn = document.querySelector('section.assignment .btn-c button')
+const see_less_btn = document.querySelector('section.assignment .btn-d button')
 
 extend_rt_btn.addEventListener('click', () => {
     remaining_tags.style.display = 'block';
     extend_rt_btn.style.display = 'none';
 });
 
-// var swiper = new Swiper(".mySwiper", {
-//     slidesPerView: 3,
-//     spaceBetween: 30,
-//     pagination: {
-//       el: ".swiper-pagination",
-//       clickable: true,
-//     },
-//   });
+see_less_btn.addEventListener('click', () => {
+    remaining_tags.style.display = 'none'
+    extend_rt_btn.style.display = 'block'
+})
+
 
 menuBtn = document.querySelector('header .container .menu');
 mobileNav = document.querySelector('header .container .nav');
@@ -71,3 +69,4 @@ menuBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
     mobileNav.style.display = 'none';
 });
+

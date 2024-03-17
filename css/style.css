@@ -356,14 +356,16 @@ section.assignment li.l p {
     color: gray;
 }
 
-section.assignment .btn-c {
+section.assignment .btn-c,
+section.assignment .btn-d {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-section.assignment .btn-c button {
+section.assignment .btn-c button,
+section.assignment .btn-d button {
     padding: 1rem 2rem;
     font-size: 1rem;
     cursor: pointer;
@@ -373,7 +375,8 @@ section.assignment .btn-c button {
     transition: all 0.5s ease;
 }
 
-section.assignment .btn-c button:hover {
+section.assignment .btn-c button:hover,
+section.assignment .btn-d button:hover {
     background-color: green;
     color: white;
 }
