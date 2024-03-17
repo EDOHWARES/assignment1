@@ -55,6 +55,7 @@ extend_rt_btn.addEventListener('click', () => {
 see_less_btn.addEventListener('click', () => {
     remaining_tags.style.display = 'none'
     extend_rt_btn.style.display = 'block'
+    see_less_btn.style.display = 'none'
 })
 
 
