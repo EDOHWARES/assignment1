@@ -49,6 +49,7 @@ const see_less_btn = document.querySelector('section.assignment .btn-d button')
 extend_rt_btn.addEventListener('click', () => {
     remaining_tags.style.display = 'block';
     extend_rt_btn.style.display = 'none';
+    see_less_btn.style.display = 'block';
 });
 
 see_less_btn.addEventListener('click', () => {

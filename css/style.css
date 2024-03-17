@@ -375,6 +375,10 @@ section.assignment .btn-d button {
     transition: all 0.5s ease;
 }
 
+section.assignment .btn-d button {
+    display: none;
+}
+
 section.assignment .btn-c button:hover,
 section.assignment .btn-d button:hover {
     background-color: green;
